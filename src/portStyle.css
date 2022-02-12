@@ -1,0 +1,9 @@
+body{
+	background-color: #00e090;
+	text-align: center;
+}
+
+ul{
+	display: table;
+	margin: 0 auto;
+}
