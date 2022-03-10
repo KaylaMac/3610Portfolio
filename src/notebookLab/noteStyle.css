@@ -1,0 +1,20 @@
+#notes{
+  margin-bottom:5px;
+}
+
+#title, #notes{
+  font-family:"Times New Roman";
+}
+
+#clear{
+  background-color:#6080ff;
+  color:white;
+  border-style:none;
+  width:60px;
+  height:30px;
+  border-radius:5px;
+}
+
+#clear:hover{
+  background-color:#4040df;
+}
