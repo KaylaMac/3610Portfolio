@@ -25,16 +25,19 @@ const barChart= new Chart(ctx,{
       title:{
        display:true,
        text: "Kayla McIntosh"
-     }
+     },
+      subtitle:{
+       display:true,
+       text: "School Enrollment Statistics by District"
+      }
     }
   }
-  
 });
 
 
 var d= document.getElementById("canvasTwo");
 var ctx2= d.getContext("2d");
-const lineChart= new Chart(ctx2,{
+const doughChart= new Chart(ctx2,{
   type: "doughnut",
   data: {
     labels: ['District 01', 'District 02', 'District 03', 'District 04', 'District 05', 'District 06', 'District 07', 'District 08', 'District 09', 'District 10'],
@@ -58,8 +61,11 @@ const lineChart= new Chart(ctx2,{
       title:{
        display:true,
        text: "Kayla McIntosh"
-     }
+     },
+      subtitle:{
+        display:true,
+        text: "School Enrollment Statistics by District"
+      }
     }
   }
-  
 });
