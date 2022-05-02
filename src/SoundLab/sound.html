@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content ="width=device-width, initial-scale=1.0">
+	<title>Sound</title>
+	<link rel="stylesheet" type="text/css" href="soundStyle.css">
+</head>
 
+<body>
+	<audio id="sax">
+		<source src="./mp3s/Saxophone.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="guitar">
+		<source src="./mp3s/AmGuitar.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="bass">
+		<source src="./mp3s/Bass.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="trumpet">
+		<source src="./mp3s/Trumpet.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="drums">
+		<source src="./mp3s/bassDrums.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="clap">
+		<source src="./mp3s/Claps.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="piano1">
+		<source src="./mp3s/Piano1.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="piano2">
+		<source src="./mp3s/Piano2.mp3" type="audio/mpeg">
+	</audio>
+
+	<audio id="piano3">
+		<source src="./mp3s/piano3.mp3" type="audio/mpeg">
+	</audio>	
+
+	<div id="buttonsHolder">
+		<button type="button" onclick="playSax()" class="shadow">Sax</button>
+		<button type="button" onclick="playGuitar()" class="shadow">Guitar</button>
+		<button type="button" onclick="playTrumpet()" class="shadow">Trumpet</button>
+		<button type="button" onclick="playDrums()" class="shadow">Drum</button>
+		<button type="button" onclick="playClap()" class="shadow">Clap</button>
+		<button type="button" onclick="playBass()" class="shadow">Bass</button>
+		<button type="button" onclick="playOne()" class="shadow">Piano 1</button>
+		<button type="button" onclick="playTwo()" class="shadow">Piano 2</button>
+		<button type="button" onclick="playThree()" class="shadow">Piano 3</button>
+	</div>
+
+	<script src="soundFunctions.js"></script>
+</body>
+</html>
