@@ -41,13 +41,13 @@ a{
 }
 
 .accordion:after {
-  content: "🞂";
+  content: "\25B7";
   font-size: 3vw;
   float: right;
 }
 
 .active:after {
-  content: "🞃";
+  content: "\25BD";
 }
 
 #holder{
